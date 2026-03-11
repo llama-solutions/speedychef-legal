@@ -24,8 +24,8 @@ This directory contains the legal documentation web pages for the SpeedyChef mob
 
 #### Terms & Conditions
 - Service description and features
-- User accounts and registration
-- Premium subscription details
+- Device and Apple ID responsibility
+- Premium subscription (SpeedyChef Pro) details
 - Acceptable use policies
 - AI-generated content disclaimers
 - Intellectual property rights
@@ -41,21 +41,10 @@ This directory contains the legal documentation web pages for the SpeedyChef mob
 - Children's privacy protection
 - International data transfers
 
-## Customization
+## Contact
 
-Before deploying, please update the following placeholders:
-
-1. **Contact Information**
-   - Replace `support@llamasolutions.com` with your actual support email
-   - Replace `legal@llamasolutions.com` with your legal contact email
-   - Replace `privacy@llamasolutions.com` with your privacy contact email
-   - Replace `dpo@llamasolutions.com` with your Data Protection Officer email
-   - Replace `[Your Business Address]` with your actual business address
-   - Replace `[Your Jurisdiction]` with your applicable legal jurisdiction
-
-2. **Company Details**
-   - Update "Llama Solutions" to your actual company name
-   - Modify any specific business terms or policies as needed
+- **Developer:** Nenad Biocanin
+- **Email:** llama.solutions@icloud.com
 
 ## Deployment
 
@@ -95,7 +84,7 @@ You can link to these pages from your iOS app using:
 
 ```swift
 // Open legal pages in Safari
-if let url = URL(string: "https://yourdomain.com/legal/") {
+if let url = URL(string: "https://speedychef.llama.solutions/") {
     UIApplication.shared.open(url)
 }
 ```
